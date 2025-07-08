@@ -48,7 +48,7 @@ export const projects: Project[] = [
     id: "1",
     title: "Portfolio Pessoal",
     description: "Portfólio moderno e responsivo, focado em Ciência de Dados e Inteligência Artificial. Ele foi desenvolvido com React, Vite, TypeScript.",
-    image: "./public/image-uploads/portfolio.png",
+    image: "/image-uploads/portfolio.png",
     tags: ["React", "Node.js", "TypeScript", "Vite"],
     githubUrl: "https://github.com/amandfernandes/portifolio",
     demoUrl: "https://amandfernandes.github.io/portifolio/"
@@ -57,7 +57,7 @@ export const projects: Project[] = [
     id: "2",
     title: "Analise de Publico do GA",
     description: "Projeto desenvolvido para o processo seletivo da Globo, onde foi realizada a análise dos dados de público do Google Analytics referentes ao período de 2016 a 2017. O objetivo era extrair insights relevantes e contar a história dos dados, identificando padrões de comportamento, tendências e oportunidades para o negócio.",
-    image: "./public/image-uploads/analiseGA.png",
+    image: "/image-uploads/analiseGA.png",
     tags: ["Power BI","Excel"],
     downloadUrl: "/Analise-publico-GA.pbix",
   },
@@ -65,7 +65,7 @@ export const projects: Project[] = [
     id: "3",
     title: "House Price",
     description: "Projeto de extração, tratamento e análise de dados utilizando o Orange Data Mining. Os dados foram obtidos a partir de um arquivo CSV ('house price'), passando por etapas de limpeza, transformação e visualização para identificar fatores que influenciam o preço de imóveis.",
-    image: "./public/image-uploads/houseprice.png",
+    image: "/image-uploads/houseprice.png",
     tags: ["Orange Data Mining"],
     downloadUrl: "./public/AmandaFernande-HousePrice.ows"
   }
