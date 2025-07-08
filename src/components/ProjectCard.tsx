@@ -3,7 +3,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { Project } from '../types';
 import Button from './Button';
-import { ExternalLink, Github } from 'lucide-react';
+import { ExternalLink, Github, Download } from 'lucide-react';
 
 interface ProjectCardProps {
   project: Project;
@@ -145,6 +145,19 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
               Demo
             </IconButton>
           )}
+          {project.downloadUrl && (
+            <IconButton
+              as="a"
+              variant="primary"
+              size="sm"
+              href={project.downloadUrl}
+              download
+              target="_blank"
+            >
+              <Download />
+              Download
+            </IconButton>
+          )}
         </Overlay>
       </ImageContainer>
       
@@ -178,7 +191,18 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
               target="_blank"
             >
               <ExternalLink />
-              Ver Demo
+              Demo
+            </IconButton>
+          )}
+          {project.downloadUrl && (
+            <IconButton
+              variant="primary"
+              size="sm"
+              href={project.downloadUrl}
+              target="_blank"
+            >
+              <Download />
+              Download
             </IconButton>
           )}
         </Actions>

@@ -6,6 +6,7 @@ export interface Project {
   image: string;
   tags: string[];
   githubUrl?: string;
+  downloadUrl?: string;
   demoUrl?: string;
 }
 

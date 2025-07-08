@@ -48,26 +48,25 @@ export const projects: Project[] = [
     id: "1",
     title: "Portfolio Pessoal",
     description: "Portfólio moderno e responsivo, focado em Ciência de Dados e Inteligência Artificial. Ele foi desenvolvido com React, Vite, TypeScript.",
-    image: "/public/image-uploads/portfolio.png",
+    image: "./public/image-uploads/portfolio.png",
     tags: ["React", "Node.js", "TypeScript", "Vite"],
-    githubUrl: "https://github.com/amanda/ecommerce",
-    demoUrl: "https://ecommerce-demo.com"
+    githubUrl: "https://github.com/amandfernandes/portifolio",
+    demoUrl: "https://amandfernandes.github.io/portifolio/"
   },
   {
     id: "2",
-    title: "Task Management App",
-    description: "Aplicativo de gerenciamento de tarefas com funcionalidades de drag-and-drop, filtros avançados e colaboração em tempo real.",
-    image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop",
-    tags: ["React", "TypeScript", "Socket.io", "PostgreSQL"],
-    githubUrl: "https://github.com/amanda/task-manager",
-    demoUrl: "https://taskmanager-demo.com"
+    title: "Analise de Publico do GA",
+    description: "Projeto desenvolvido para o processo seletivo da Globo, onde foi realizada a análise dos dados de público do Google Analytics referentes ao período de 2016 a 2017. O objetivo era extrair insights relevantes e contar a história dos dados, identificando padrões de comportamento, tendências e oportunidades para o negócio.",
+    image: "./public/image-uploads/analiseGA.png",
+    tags: ["Power BI","Excel"],
+    downloadUrl: "/Analise-publico-GA.pbix",
   },
   {
     id: "3",
-    title: "Weather Dashboard",
-    description: "Dashboard meteorológico com visualizações interativas, previsões detalhadas e histórico de dados climáticos.",
-    image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=600&h=400&fit=crop",
-    tags: ["Vue.js", "D3.js", "OpenWeather API"],
-    githubUrl: "https://github.com/amanda/weather-dashboard"
+    title: "House Price",
+    description: "Projeto de extração, tratamento e análise de dados utilizando o Orange Data Mining. Os dados foram obtidos a partir de um arquivo CSV ('house price'), passando por etapas de limpeza, transformação e visualização para identificar fatores que influenciam o preço de imóveis.",
+    image: "./public/image-uploads/houseprice.png",
+    tags: ["Orange Data Mining"],
+    downloadUrl: "./public/AmandaFernande-HousePrice.ows"
   }
 ];

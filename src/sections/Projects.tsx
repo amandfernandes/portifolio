@@ -86,14 +86,14 @@ const Projects: React.FC = () => {
   return (
     <ProjectsSection id="projects">
       <Container>
-        <SectionTitle>Projects</SectionTitle>
+        <SectionTitle>Projetos</SectionTitle>
         <SectionDescription>
-          Here are some of my recent projects that showcase my skills and creativity. 
-          Each project represents a unique challenge and learning opportunity.
+          Aqui estão alguns dos meus projetos recentes que destacam minhas habilidades e criatividade.
+          Cada projeto representa um desafio único e uma oportunidade de aprendizado
         </SectionDescription>
         
         <ProjectsGrid>
-          {projects.slice(0, 3).map((project) => (
+          {projects.map((project) => (
             <ProjectCard key={project.id} project={project} />
           ))}
         </ProjectsGrid>
