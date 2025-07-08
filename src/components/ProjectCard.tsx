@@ -147,11 +147,9 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
           )}
           {project.downloadUrl && (
             <IconButton
-              as="a"
               variant="primary"
               size="sm"
               href={project.downloadUrl}
-              download
               target="_blank"
             >
               <Download />

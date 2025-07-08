@@ -97,10 +97,12 @@ const Projects: React.FC = () => {
             <ProjectCard key={project.id} project={project} />
           ))}
         </ProjectsGrid>
-
-        <ViewMoreButton>
-          View More
-        </ViewMoreButton>
+        
+        <a href='https://github.com/amandfernandes' target='_blanck'>
+          <ViewMoreButton>
+            View More
+          </ViewMoreButton>
+        </a> 
       </Container>
     </ProjectsSection>
   );
